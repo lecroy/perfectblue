@@ -208,10 +208,8 @@ p {
 
 
 .video-wrapper figure.jumbotron {
-    top: 100px;
-    position: absolute;
-    z-index: 99;
     text-align: center;
+    background: #1eaedb;
 }
 
 .threemodules {
