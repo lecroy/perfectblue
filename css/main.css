@@ -1,0 +1,328 @@
+
+      body {
+        background: #f6f6f6;
+        background-repeat: x, y;
+        #background: #eff1f3;
+        text-rendering: optimizeLegibility;
+        font-family: 'Source Sans Pro', sans-serif;
+        padding-top: 20px;
+        
+
+        
+      }
+
+      /* Custom container */
+      .container {
+        margin: 0 auto;
+        max-width: 1000px;
+      }
+      .container > hr {
+        margin: 60px 0;
+      }
+
+      .logo {
+        text-align: center;
+
+      }
+        
+      .logo img {
+        margin-right: 20px;
+      }
+    
+
+      a {
+        color: #008fc5;
+      }
+
+      a:hover {
+        color: #09a2fa;
+      }
+
+      h1 {
+        color: #294079;
+      }
+
+      h2 {
+        color: #294079;
+        line-height: 1.4em;
+      }
+
+      h3 {
+        color: #294079;
+      }
+
+      .masthead {
+        height: 20px;
+        
+      }
+
+      hr {
+        border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.25), rgba(0,0,0,0)); 
+    background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.25), rgba(0,0,0,0)); 
+    background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.25), rgba(0,0,0,0)); 
+    background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.25), rgba(0,0,0,0)); 
+      }
+
+      /* Main marketing message and sign up button */
+      .jumbotron {
+        margin: 50px 0;
+        text-align: center;
+      }
+      .jumbotron h1 {
+        font-size: 72px;
+        font-family: 'Source Sans Pro', sans-serif;
+        color: rgba(65,44, 232,0.8);
+        text-shadow: 4px 4px 0 rgba(148,209,236,0.5);
+        font-weight: 700;
+        letter-spacing: .01em;
+        line-height: 1;
+      }
+      .jumbotron .lead {
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 1.25;
+        color: #124981;
+      }
+      .jumbotron .btn {
+        background: #294079;
+        font-size: 18px;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-decoration: none;
+        margin-top: 30px;
+        padding: 14px 24px;
+        border-radius: 5px;
+        color: #ffffff;
+        }
+  
+  
+      .jumbotron .btn:hover {
+        
+        box-shadow:none;
+        text-shadow: none;
+        background-color: #378de5;
+        
+        
+
+      }
+
+      /* Supporting marketing content */
+      .marketing {
+        margin: 60px 0;
+      }
+      .marketing p + h4 {
+        margin-top: 28px;
+      }
+
+
+      /* Customize the navbar links to be fill the entire space of the .navbar */
+      .navbar .navbar-inner {
+        padding-left: 30px;
+      }
+      .navbar .nav {
+        display: table;
+        width: 80%;
+        margin: 0 auto;
+
+      }
+      .navbar .nav li {
+        display: table-cell;
+        width: 1%;
+        
+      }
+      .navbar .nav li a {
+        font-weight: 700;
+        font-size: 14px;
+        font-family: 'Source Sans Pro', sans-serif;
+        text-align: center;
+        color: #294079;
+        text-decoration: none;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        
+        
+      }
+
+      .navbar .nav li a:hover {
+        color: #09a2fa;
+        -webkit-transition:color .2s linear;  
+        -moz-transition:color .2s linear;  
+        -o-transition:color .2s linear;  
+        transition:color .2s linear;  
+
+      }
+
+      .navbar .nav li:first-child a {
+        border-left: 0;
+        border-radius: 3px 0 0 3px;
+      }
+      .navbar .nav li:last-child a {
+        border-right: 0;
+        border-radius: 0 3px 3px 0;
+      }
+
+      .lead {
+        width: 80%;
+        margin: 0 auto;
+      }
+
+      .threemodules {
+        margin-bottom: 100px;
+      }
+
+      .span4 {
+        width: 30%;
+        display: inline-block;
+        margin: 0 0 0 20px;
+      }
+
+      .btn {
+        display: inline-block;
+        padding: 4px 12px;
+        margin-bottom: 0;
+        font-size: 14px;
+        line-height: 20px;
+        color: #333333;
+        text-align: center;
+        text-decoration: none;
+        vertical-align: middle;
+        cursor: pointer;
+        }
+
+      .content {
+      position: relative;
+      z-index: 20;
+      background: none;
+      width: 650px;
+      max-width: 92%;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 10px 4%;
+      line-height: 1.6;
+      text-align: left;
+      font-size: 18px;
+      -webkit-transition: color 0.2s ease-in-out;
+      -moz-transition: color 0.2s ease-in-out;
+      transition: color 0.2s ease-in-out;
+      }
+
+      .contentcentered {
+        position: relative;
+        z-index: 20;
+        background: none;
+        width: 650px;
+        max-width: 92%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px 4%;
+        line-height: 1.6;
+        text-align: center;
+        font-size: 18px;
+        -webkit-transition: color 0.2s ease-in-out;
+        -moz-transition: color 0.2s ease-in-out;
+        transition: color 0.2s ease-in-out;
+
+
+      }
+
+      #contactinfo {
+        text-align: center;
+        margin: 0 auto;
+      }
+
+      .footer {
+        background-image: url(images/water.png);
+        background-repeat: repeat-x;
+        color: #ffffff;
+        height: 50px;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 99;
+
+
+      }
+
+      .copyright {
+        float: left;
+        margin-left: 10%;
+      }
+
+      .phonenumber {
+        float: right;
+        margin-right: 10%;
+      }
+
+      /* Media Queries */
+      @media screen and (max-width: 720px) {
+
+      .container {
+        text-align: center;
+      }  
+      
+      .navbar .navbar-inner {
+        text-align: center;
+        display: block;
+        padding-left: 0px;
+      }
+
+      .navbar .nav {
+
+        text-align: center;
+        width: 20%;
+        margin: 0 auto;
+
+      }
+      .navbar .nav li {
+        text-align: center;
+        display: block;
+        margin: 0 auto;
+        
+      }
+
+      ul, menu, dir {
+      text-align: center;
+      display: block;
+     
+      -webkit-margin-before: 0px;
+      -webkit-margin-after: 0px;
+      -webkit-margin-start: 0px;
+      -webkit-margin-end: 0px;
+      -webkit-padding-start: 0px;
+      }
+
+      li {
+        text-align: center;
+      }
+
+      .jumbotron h1 {
+        font-size: 72px;
+        font-family: 'Source Sans Pro', sans-serif;
+        color: rgba(65,189,232,0.8);
+        text-shadow: 4px 4px 0 rgba(148,209,236,0.5);
+        font-weight: 700;
+        letter-spacing: .01em;
+        line-height: 1;
+        margin-top: 120px;
+      }
+
+      .span4 {
+        width: 90%;
+        display: block;
+        text-align: center;
+        margin-bottom: 50px;
+        
+      }
+    }
+      @media (-webkit-min-device-pixel-ratio: 1.25) {
+
+      .footer {
+        background-image: url(images/water@2x.png);
+        background-size: 69px 50px;
+        }
+
+      }
