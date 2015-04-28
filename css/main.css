@@ -209,13 +209,13 @@ p {
 
 .hero-wrapper figure.jumbotron {
     text-align: center;
-    background: #1eaedb; /* Old browsers */
-    background: -moz-linear-gradient(left, #1eaedb 0%, #6fcae8 100%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, right top, color-stop(0%,#1eaedb), color-stop(100%,#6fcae8)); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(left, #1eaedb 0%,#6fcae8 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(left, #1eaedb 0%,#6fcae8 100%); /* Opera 11.10+ */
-    background: -ms-linear-gradient(left, #1eaedb 0%,#6fcae8 100%); /* IE10+ */
-    background: linear-gradient(to right, #1eaedb 0%,#6fcae8 100%); /* W3C */
+    background: #6fcae8; /* Old browsers */
+    background: -moz-radial-gradient(center, ellipse cover, #6fcae8 0%, #1eaedb 100%); /* FF3.6+ */
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#6fcae8), color-stop(100%,#1eaedb)); /* Chrome,Safari4+ */
+    background: -webkit-radial-gradient(center, ellipse cover, #6fcae8 0%,#1eaedb 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-radial-gradient(center, ellipse cover, #6fcae8 0%,#1eaedb 100%); /* Opera 12+ */
+    background: -ms-radial-gradient(center, ellipse cover, #6fcae8 0%,#1eaedb 100%); /* IE10+ */
+    background: radial-gradient(ellipse at center, #6fcae8 0%,#1eaedb 100%); /* W3C */
 }
 
 .threemodules {
